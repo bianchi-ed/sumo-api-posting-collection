@@ -1,0 +1,13 @@
+name: /api/rikishi/:rikishiId/matches
+description: |-
+  Returns all matches of a rikishi. Sorted by basho, then by day, most to least recent.
+
+  Query params:
+  -bashoId: filters the matches by a specific basho YYYYMM e.g. 202303
+url: sumo-api.com/api/rikishi/:rikishiId/matches
+params:
+- name: bashoId
+  value: ''
+path_params:
+- name: rikishiId
+  value: ''

@@ -1,0 +1,7 @@
+name: /api/basho/:bashoId
+description: Returns a single basho, where bashoId is in the format YYYYMM, with the
+  yusho and sansho details for the basho.
+url: sumo-api.com/api/basho/:bashoId
+path_params:
+- name: bashoId
+  value: ''

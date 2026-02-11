@@ -1,0 +1,19 @@
+name: /api/rikishi/:rikishiId
+description: |-
+  Returns a single rikishi by id
+
+  Query params:
+  - measurements: if true, the changes in a rikishi's measurements over time will be included in the response
+  - ranks: if true, the changes in a rikishi's ranks over time will be included in the response
+  - shikonas: if true, the changes in a rikishi's shikonas over time will be included in the response
+url: sumo-api.com/api/rikishi/:rikishiId
+params:
+- name: measurements
+  value: ''
+- name: ranks
+  value: ''
+- name: shikonas
+  value: ''
+path_params:
+- name: rikishiId
+  value: ''

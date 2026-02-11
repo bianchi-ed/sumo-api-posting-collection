@@ -1,0 +1,37 @@
+name: /api/rikishis
+description: |-
+  Returns a subset of rikishi in the database, hard limit of 1000, use limit & skip to access all records
+
+  Query params:
+  - shikonaEn: search for a rikishi by English shikona
+  - heya: search by heya, full name in English, e.g. Isegahama
+  - sumodbId: search by sumoDB ID, e.g. 11927 = Terunofuji
+  - nskId: search by official NSK ID, e.g. 3321 = Terunofuji
+  - intai: (retirement date) if missing, only active rikishi are searched. If true, retired rikishi are also searched.
+  - measurements: if true, the changes in a rikishi's measurements over time will be included in the response
+  - ranks: if true, the changes in a rikishi's ranks over time will be included in the response
+  - shikonas: if true, the changes in a rikishi's shikonas over time will be included in the response
+  - limit: how many results to return, 1000 hard limit
+  - skip: skip over the number of results specified
+url: sumo-api.com/api/rikishis
+params:
+- name: shikonaEn
+  value: ''
+- name: heya
+  value: ''
+- name: sumodbId
+  value: ''
+- name: nskId
+  value: ''
+- name: intai
+  value: ''
+- name: measurements
+  value: ''
+- name: ranks
+  value: ''
+- name: shikonas
+  value: ''
+- name: limit
+  value: ''
+- name: skip
+  value: ''

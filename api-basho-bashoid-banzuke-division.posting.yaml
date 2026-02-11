@@ -1,0 +1,10 @@
+name: /api/basho/:bashoId/banzuke/:division
+description: Returns a single basho, where bashoId is in the format YYYYMM, and the
+  specified division's banzuke, where the division is any of Makuuchi, Juryo, Makushita,
+  Sandanme, Jonidan, or Jonokuchi.
+url: sumo-api.com/api/basho/:bashoId/banzuke/:division
+path_params:
+- name: bashoId
+  value: ''
+- name: division
+  value: ''

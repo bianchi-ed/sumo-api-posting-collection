@@ -1,0 +1,13 @@
+name: /api/basho/:bashoId/torikumi/:division/:day
+description: Returns a single basho, where bashoId is in the format YYYYMM, and the
+  specified division's torikumi of a given day, where the division is any of Makuuchi,
+  Juryo, Makushita, Sandanme, Jonidan, or Jonokuchi, and day is 1 to 15 (or up to
+  the number of playoff matches).
+url: sumo-api.com/api/basho/:bashoId/torikumi/:division/:day
+path_params:
+- name: bashoId
+  value: ''
+- name: division
+  value: ''
+- name: day
+  value: ''

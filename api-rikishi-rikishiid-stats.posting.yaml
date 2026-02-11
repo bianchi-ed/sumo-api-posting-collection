@@ -1,0 +1,7 @@
+name: /api/rikishi/:rikishiId/stats
+description: Returns a single rikishi's overall performance stats, more data to be
+  added later.
+url: sumo-api.com/api/rikishi/:rikishiId/stats
+path_params:
+- name: rikishiId
+  value: ''

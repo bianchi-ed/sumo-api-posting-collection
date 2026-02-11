@@ -1,0 +1,18 @@
+name: /api/measurements
+description: |-
+  Returns measurement changes by rikishi OR basho
+
+  NOTE: the sort order is by basho, default descending order.
+
+  Query params:
+  - rikishiId: returns all of a single rikishi's measurement changes
+  - bashoId: returns all of the measurements changes recorded for a single basho (format yyyymm, e.g 202301)
+  - sortOrder: asc | desc (default: desc)
+url: https://sumo-api.com/api/measurements
+params:
+- name: bashoId
+  value: ''
+- name: rikishiId
+  value: '8850'
+- name: sortOrder
+  value: ''

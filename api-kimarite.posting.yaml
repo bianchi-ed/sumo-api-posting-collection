@@ -1,0 +1,16 @@
+name: /api/kimarite
+description: |-
+  Returns matches where the specified kimarite was used
+
+  NOTE: the sort order is by basho then day and is not guaranteed to be the actual use order on that day.
+
+  Query params:
+  - sortOrder: asc | desc (default: asc)
+  - limit: limit the number of responses (hard limit of 1000)
+  - skip: skip the number of responses
+url: sumo-api.com/api/kimarite
+params:
+- name: sortField
+  value: ''
+- name: sortOrder
+  value: ''

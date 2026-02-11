@@ -1,0 +1,18 @@
+name: /api/shikonas
+description: |-
+  Returns shikona changes by rikishi OR basho
+
+  NOTE: the sort order is by basho, default descending order.
+
+  Query params:
+  - rikishiId: returns all of a single rikishi's shikona changes
+  - bashoId: returns all of the shikona changes recorded for a single basho (format yyyymm, e.g 202301)
+  - sortOrder: asc | desc (default: desc)
+url: sumo-api.com/api/shikonas
+params:
+- name: rikishiId
+  value: ''
+- name: bashoId
+  value: ''
+- name: bashoId
+  value: ''
